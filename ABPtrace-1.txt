@@ -1,0 +1,672 @@
+PS C:\WPI Files\CS3516\Project2\Project2\ABG> make clean
+rm -f p2.exe
+PS C:\WPI Files\CS3516\Project2\Project2\ABG> make
+gcc -g project2.c student2.c -o p2
+PS C:\WPI Files\CS3516\Project2\Project2\ABG> ./p2 100 .2 0 0 200 0 0 0
+-----  Network Simulator Version    2.3 --------
+
+Input parameters:
+Number of Messages = 100  Lost Packet Prob. =   0.200
+Corrupt Packet Prob. =   0.000  Out Of Order Prob. =   0.000
+Ave. time between messages =   200.00  Trace level = 0
+Randomize = 0  Bi-directional = 0
+
+A:     216.0067,  Layer 5 to 4  Message = !fEVhy->Pbs'2J3m~2DU
+B:     224.2809,  Layer 4 to 5  Message = !fEVhy->Pbs'2J3m~2DU
+A:     240.9557,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+A:     252.3999,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+B:     261.5134,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+B:     289.9173,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+A:     301.4117,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+A:     309.0624,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+B:     322.8189,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+B:     324.7780,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+A:     620.6769,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+B:     663.2048,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+A:     706.0831,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+B:     815.6763,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+A:    1029.3581,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+B:    1092.4281,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+A:    1401.5966,  Layer 5 to 4  Message = *jL.nP2r*6vX:z]>~aC%
+B:    1424.3647,  Layer 4 to 5  Message = *jL.nP2r*6vX:z]>~aC%
+A:    1705.2644,  Layer 5 to 4  Message = +fpdWK>2&+k_RF3-~rfY
+B:    1733.6495,  Layer 4 to 5  Message = +fpdWK>2&+k_RF3-~rfY
+A:    1948.6728,  Layer 5 to 4  Message = ,16;AFKPUZ,ejoty~&+0
+B:    1980.8870,  Layer 4 to 5  Message = ,16;AFKPUZ,ejoty~&+0
+A:    2315.3765,  Layer 5 to 4  Message = -DZq*AWn'=T-$:Qh~7Ne
+B:    2324.4279,  Layer 4 to 5  Message = -DZq*AWn'=T-$:Qh~7Ne
+A:    2579.5736,  Layer 5 to 4  Message = .V~Iq;d.V~Iq.d.V~Iq;
+B:    2587.4262,  Layer 4 to 5  Message = .V~Iq;d.V~Iq.d.V~Iq;
+A:    2878.5110,  Layer 5 to 4  Message = xiE~Z6pL(b=wSxiE~Z6p
+B:    2893.3066,  Layer 4 to 5  Message = xiE~Z6pL(b=wSxiE~Z6p
+A:    3124.5329,  Layer 5 to 4  Message = d{iVD1|jWE2}2X03~lYG
+B:    3139.2744,  Layer 4 to 5  Message = d{iVD1|jWE2}2X03~lYG
+A:    3329.5158,  Layer 5 to 4  Message = 10x.-,+*)('&%$#1~}|{
+B:    3358.4676,  Layer 4 to 5  Message = 10x.-,+*)('&%$#1~}|{
+A:    3632.0986,  Layer 5 to 4  Message = 2CSdt'7HXiy,<M^n21BR
+B:    3651.7375,  Layer 4 to 5  Message = 2CSdt'7HXiy,<M^n21BR
+A:    3965.0535,  Layer 5 to 4  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+B:    3985.9419,  Layer 4 to 5  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+A:    4222.1423,  Layer 5 to 4  Message = 4f=qGzP&Yxc8lB3K~T4^
+A:    4237.4521,  Layer 5 to 4  Message = 5zbI0u]D+pW>&kR9~fM5
+B:    4242.1252,  Layer 4 to 5  Message = 4f=qGzP&Yxc8lB3K~T4^
+B:    4257.5706,  Layer 4 to 5  Message = 5zbI0u]D+pW>&kR9~fM5
+A:    4617.5392,  Layer 5 to 4  Message = 6x(~wpibZSLE=6x(~wpi
+B:    4626.4990,  Layer 4 to 5  Message = 6x(~wpibZSLE=6x(~wpi
+A:    4870.2779,  Layer 5 to 4  Message = d7LVaku!,6AK2`jt~+5?
+B:    4872.9172,  Layer 4 to 5  Message = d7LVaku!,6AK2`jt~+5?
+A:    5056.1360,  Layer 5 to 4  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+B:    5082.2434,  Layer 4 to 5  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+A:    5394.3187,  Layer 5 to 4  Message = 9g693a0^-Z*W'T$Q~N{K
+B:    5418.9084,  Layer 4 to 5  Message = 9g693a0^-Z*W'T$Q~N{K
+A:    5745.1217,  Layer 5 to 4  Message = :yZ;:[<{]=|^>}_?~`A!
+B:    5751.3837,  Layer 4 to 5  Message = :yZ;:[<{]=|^>}_?~`A!
+A:    5963.7989,  Layer 5 to 4  Message = ;.~qd;I;.~qdVI;.~qdV
+B:    5995.7813,  Layer 4 to 5  Message = ;.~qd;I;.~qdVI;.~qdV
+A:    6157.3533,  Layer 5 to 4  Message = <AEIMQ<Y^bfjnrvz~%)-
+B:    6183.0821,  Layer 4 to 5  Message = <AEIMQ<Y^bfjnrvz~%)-
+A:    6273.1329,  Layer 5 to 4  Message = =fi~6Lb=xEZp(=3i~6Lb
+A:    6315.2199,  Layer 5 to 4  Message = dfxV}Gn7>(Ov2g0W~Ho8
+B:    6315.6883,  Layer 4 to 5  Message = =fi~6Lb=xEZp(=3i~6Lb
+B:    6396.8807,  Layer 4 to 5  Message = dfxV}Gn7>(Ov2g0W~Ho8
+A:    6627.3262,  Layer 5 to 4  Message = ?xS.gBzU0?D|W2kF~Y4m
+B:    6640.8487,  Layer 4 to 5  Message = ?xS.gBzU0?D|W2kF~Y4m
+A:    6773.8518,  Layer 5 to 4  Message = A-wdP<)s`LA%o[H4~kWD
+B:    6781.0961,  Layer 4 to 5  Message = A-wdP<)s`LA%o[H4~kWD
+A:    6793.4718,  Layer 5 to 4  Message = B?=;97531x-B)'%#~|zx
+B:    6831.6381,  Layer 4 to 5  Message = B?=;97531x-B)'%#~|zx
+
+Printing the contents of the Simulation Event Q
+Event Time = 6851.558 B: LAYER 3  Seq/Ack/Check = 0/0/1294272078:  A-wdP<)s`LA%o[H4~kWD
+Event Time = 6857.975 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 6883.568 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 6883.568 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 6907.527 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 6957.527 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7007.527 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7057.527 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7057.527 A: Timer
+Event Time = 7079.452 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7087.101 A: Timer
+
+A:    7079.4516,  Layer 5 to 4  Message = CRbq#2BQap!1CP`o~0?O
+
+Printing the contents of the Simulation Event Q
+Event Time = 7087.127 B: LAYER 3  Seq/Ack/Check = 0/0/1261241874:  CRbq#2BQap!1CP`o~0?O
+Event Time = 7290.310 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 7102.798 B: LAYER 3  Seq/Ack/Check = 0/0/1261241874:  CRbq#2BQap!1CP`o~0?O
+Event Time = 7137.101 A: Timer
+Event Time = 7290.310 A: LAYER 5
+
+B:    7087.1267,  Layer 4 to 5  Message = CRbq#2BQap!1CP`o~0?O
+A:    7290.3102,  Layer 5 to 4  Message = De(Ij-No2St7XD<^~Bc&
+B:    7293.7741,  Layer 4 to 5  Message = De(Ij-No2St7XD<^~Bc&
+A:    7445.7633,  Layer 5 to 4  Message = EwL~S(Zxb6i=pEEL~S(Z
+B:    7452.6455,  Layer 4 to 5  Message = EwL~S(Zxb6i=pEEL~S(Z
+A:    7525.3621,  Layer 5 to 4  Message = d,pV<#gM3w^D2nTF~eK1
+B:    7548.1729,  Layer 4 to 5  Message = d,pV<#gM3w^D2nTF~eK1
+A:    7598.3712,  Layer 5 to 4  Message = Gf6.&{skcZRJB93)Gvnf
+B:    7643.3055,  Layer 4 to 5  Message = Gf6.&{skcZRJB93)Gvnf
+A:    7748.1598,  Layer 5 to 4  Message = HQZdmv!+4=GPYclu~H3<
+B:    7751.9077,  Layer 4 to 5  Message = HQZdmv!+4=GPYclu~H3<
+A:    7866.8196,  Layer 5 to 4  Message = Id~;Vq.Id~;Vq.Id~;Iq
+B:    7872.8664,  Layer 4 to 5  Message = Id~;Vq.Id~;Vq.Id~;Iq
+A:    8047.7794,  Layer 5 to 4  Message = JvEq?l:g5b0]+W&R~MyJ
+B:    8086.0971,  Layer 4 to 5  Message = JvEq?l:g5b0]+W&R~MyJ
+A:    8222.9793,  Layer 5 to 4  Message = K+iI)gG'eE%cC#aA~_>|
+A:    8362.6869,  Layer 5 to 4  Message = LLx~pbSE6(wiZL=x~pbS
+A:    8375.1905,  Layer 5 to 4  Message = dPMVY]`cfilo2ux{~$'*
+B:    8391.9019,  Layer 4 to 5  Message = K+iI)gG'eE%cC#aA~_>|
+B:    8468.4141,  Layer 4 to 5  Message = LLx~pbSE6(wiZL=x~pbS
+B:    8618.9342,  Layer 4 to 5  Message = dPMVY]`cfilo2ux{~$'*
+A:    8659.3754,  Layer 5 to 4  Message = NcwNCWl#7Lau,AUj~5J_
+B:    8669.2100,  Layer 4 to 5  Message = NcwNCWl#7Lau,AUj~5J_
+A:    8697.0919,  Layer 5 to 4  Message = Ou=dORxAgxU{Dj2X~Gm5
+B:    8737.7031,  Layer 4 to 5  Message = Ou=dORxAgxU{Dj2X~Gm5
+A:    9061.3750,  Layer 5 to 4  Message = Pfb;sP'_8pJ$[53G~X2j
+B:    9096.9599,  Layer 4 to 5  Message = Pfb;sP'_8pJ$[53G~X2j
+A:    9358.5417,  Layer 5 to 4  Message = Q<(q]HQ|hS>*s_J5~jUA
+A:    9478.4721,  Layer 5 to 4  Message = ROLIFC?R9630-*'$~{xu
+B:    9487.6110,  Layer 4 to 5  Message = Q<(q]HQ|hS>*s_J5~jUA
+A:    9652.2533,  Layer 5 to 4  Message = Sbp~x=LZSw(6ESbp~x=L
+B:    9721.2642,  Layer 4 to 5  Message = ROLIFC?R9630-*'$~{xu
+B:    9762.1577,  Layer 4 to 5  Message = Sbp~x=LZSw(6ESbp~x=L
+A:    9909.7938,  Layer 5 to 4  Message = dt6Vv8Xx:Tz<2|>_~Aa#
+B:    9927.0844,  Layer 4 to 5  Message = dt6Vv8Xx:Tz<2|>_~Aa#
+A:   10234.5389,  Layer 5 to 4  Message = U)Z.`3e8j=UCtHyM~R&W
+A:   10248.4941,  Layer 5 to 4  Message = V;~dI.qV;~dV.qV;~dI.
+B:   10263.1504,  Layer 4 to 5  Message = U)Z.`3e8j=UCtHyM~R&W
+B:   10288.6829,  Layer 4 to 5  Message = V;~dI.qV;~dV.qV;~dI.
+A:   10620.3714,  Layer 5 to 4  Message = WNE;2)}tkbXOW<3*~ulc
+B:   10622.6392,  Layer 4 to 5  Message = WNE;2)}tkbXOW<3*~ulc
+A:   10968.9569,  Layer 5 to 4  Message = Xaiqy$,4<EMU^Xnv~)19
+B:   10995.5390,  Layer 4 to 5  Message = Xaiqy$,4<EMU^Xnv~)19
+A:   11091.5634,  Layer 5 to 4  Message = YfxIc|8Rl(B[u1Ye~:Tn
+B:   11117.2006,  Layer 4 to 5  Message = YfxIc|8Rl(B[u1Ye~:Tn
+A:   11458.8567,  Layer 5 to 4  Message = Z(S~LwEp=i6bxZ(Z~LwE
+B:   11507.6600,  Layer 4 to 5  Message = Z(S~LwEp=i6bxZ(Z~LwE
+A:   11858.0084,  Layer 5 to 4  Message = d:wV5rQ0mL+h2&cB[^<y
+B:   11859.4025,  Layer 4 to 5  Message = d:wV5rQ0mL+h2&cB[^<y
+A:   11929.2616,  Layer 5 to 4  Message = ]M=.|m^N>x}n_O?0~]`P
+B:   11962.9231,  Layer 4 to 5  Message = ]M=.|m^N>x}n_O?0~]`P
+A:   12152.8214,  Layer 5 to 4  Message = ^`bdfhjlnprtvxz|~#^'
+B:   12175.3519,  Layer 4 to 5  Message = ^`bdfhjlnprtvxz|~#^'
+A:   12391.5134,  Layer 5 to 4  Message = _r(;Ocv,?Sgz0DWk~4H_
+B:   12433.3744,  Layer 4 to 5  Message = _r(;Ocv,?Sgz0DWk~4H_
+A:   12695.8725,  Layer 5 to 4  Message = `'Lq8^%Jo6[#Hm4Y~Fk2
+B:   12731.4476,  Layer 4 to 5  Message = `'Lq8^%Jo6[#Hm4Y~Fk2
+A:   13058.8631,  Layer 5 to 4  Message = aapI!X1hAwP)`8oH~W0g
+B:   13089.3535,  Layer 4 to 5  Message = aapI!X1hAwP)`8oH~W0g
+A:   13123.7795,  Layer 5 to 4  Message = bLb~iS=(pZExwbL6~iS=
+B:   13148.8422,  Layer 4 to 5  Message = bLb~iS=(pZExwbL6~iS=
+A:   13340.4166,  Layer 5 to 4  Message = dfZcRNJFB=952-3%~zvr
+A:   13392.2055,  Layer 5 to 4  Message = dq~.dIVdq~.;IVdq~.;I
+B:   13477.1944,  Layer 4 to 5  Message = dfZcRNJFB=952-3%~zvr
+B:   13524.8603,  Layer 4 to 5  Message = dq~.dIVdq~.;IVdq~.;I
+
+Printing the contents of the Simulation Event Q
+Event Time = 13549.437 A: LAYER 3  Seq/Ack/Check = 1/0/1498482406:  dq~.dIVdq~.;IVdq~.;I
+Event Time = 13553.758 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13555.714 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13584.699 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13599.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13599.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13599.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13607.123 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13619.910 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13649.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13641.150 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13649.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13646.248 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13649.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13649.437 A: Timer
+Event Time = 13655.519 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13655.519 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13660.039 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13699.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13699.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13699.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13699.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13699.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13712.989 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13722.544 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13749.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13738.574 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13749.437 A: Timer
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13749.437 A: Timer
+Event Time = 13754.161 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13754.161 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13757.338 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13757.338 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13766.353 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+Event Time = 13799.437 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13766.353 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13779.411 A: LAYER 5
+Event Time = 13788.095 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13799.437 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13779.411 A: LAYER 5
+Event Time = 13784.148 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13788.095 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13799.437 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13784.148 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13788.095 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13799.437 A: Timer
+Event Time = 13810.747 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+
+A:   13779.4106,  Layer 5 to 4  Message = e&Ed%ec$Cb#Ba!A`~?_}
+
+Printing the contents of the Simulation Event Q
+Event Time = 13784.148 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13788.095 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13795.469 B: LAYER 3  Seq/Ack/Check = 1/0/1210713613:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 13799.437 A: Timer
+Event Time = 13810.747 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+
+A:   13782.9533,  Layer 5 to 4  Message = f8i;l>fBrEuHxK{N~Q$T
+
+Printing the contents of the Simulation Event Q
+Event Time = 13788.095 B: LAYER 3  Seq/Ack/Check = 1/0/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13795.469 B: LAYER 3  Seq/Ack/Check = 1/0/1210713613:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 13796.513 A: LAYER 5
+Event Time = 13798.643 B: LAYER 3  Seq/Ack/Check = 0/0/1437468380:  f8i;l>fBrEuHxK{N~Q$T
+Event Time = 13799.437 A: Timer
+Event Time = 13810.747 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13795.469 B: LAYER 3  Seq/Ack/Check = 1/0/1210713613:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 13796.513 A: LAYER 5
+Event Time = 13798.643 B: LAYER 3  Seq/Ack/Check = 0/0/1437468380:  f8i;l>fBrEuHxK{N~Q$T
+Event Time = 13799.437 A: Timer
+Event Time = 13810.747 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13823.060 B: LAYER 3  Seq/Ack/Check = 1/0/1210713613:  e&Ed%ec$Cb#Ba!A`~?_}
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 13796.513 A: LAYER 5
+Event Time = 13798.643 B: LAYER 3  Seq/Ack/Check = 0/0/1437468380:  f8i;l>fBrEuHxK{N~Q$T
+Event Time = 13799.437 A: Timer
+Event Time = 13810.747 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+Event Time = 13823.060 B: LAYER 3  Seq/Ack/Check = 1/0/1210713613:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 13836.397 A: LAYER 3  Seq/Ack/Check = 1/1/1298859581:  dfZcRNJFB=952-3%~zvr
+
+B:   13795.4695,  Layer 4 to 5  Message = e&Ed%ec$Cb#Ba!A`~?_}
+A:   13796.5132,  Layer 5 to 4  Message = gKxqU9{gD(jN2tX<~cG+
+B:   13798.6430,  Layer 4 to 5  Message = f8i;l>fBrEuHxK{N~Q$T
+B:   13843.7310,  Layer 4 to 5  Message = gKxqU9{gD(jN2tX<~cG+
+A:   14157.0845,  Layer 5 to 4  Message = h^SI>4*}hi_TJ?5+~tj`
+B:   14176.8580,  Layer 4 to 5  Message = h^SI>4*}hi_TJ?5+~tj`
+A:   14406.5340,  Layer 5 to 4  Message = ipw~(x6=EiSZbipw~(x6
+B:   14422.0472,  Layer 4 to 5  Message = ipw~(x6=EiSZbipw~(x6
+A:   14538.5571,  Layer 5 to 4  Message = d%=Vo*C[txja24Mf~9Rk
+B:   14544.7189,  Layer 4 to 5  Message = d%=Vo*C[txja24Mf~9Rk
+A:   14664.5978,  Layer 5 to 4  Message = k7b.X%OyFp<k3^*T~KuB
+A:   14681.7626,  Layer 5 to 4  Message = lf(dB}[9uS1ml)3C~]:v
+B:   14692.7760,  Layer 4 to 5  Message = k7b.X%OyFp<k3^*T~KuB
+B:   14766.8294,  Layer 4 to 5  Message = lf(dB}[9uS1ml)3C~]:v
+A:   15081.4558,  Layer 5 to 4  Message = m]L;+xhWG6&scmB1~n^M
+B:   15111.4344,  Layer 4 to 5  Message = m]L;+xhWG6&scmB1~n^M
+A:   15307.9339,  Layer 5 to 4  Message = nopqrstuvwxyz{n}~!#$
+B:   15331.6840,  Layer 4 to 5  Message = nopqrstuvwxyz{n}~!#$
+A:   15665.5085,  Layer 5 to 4  Message = o$6I[n#5HZm!4GYo~3FX
+B:   15690.3122,  Layer 4 to 5  Message = o$6I[n#5HZm!4GYo~3FX
+A:   16064.8720,  Layer 5 to 4  Message = p6Z~EixSw=b(Lp6ZpEix
+A:   16170.5224,  Layer 5 to 4  Message = dI~V.d;qI~V.2;qI~q.d
+B:   16200.7678,  Layer 4 to 5  Message = p6Z~EixSw=b(Lp6ZpEix
+B:   16218.4431,  Layer 4 to 5  Message = dI~V.d;qI~V.2;qI~q.d
+A:   16263.1980,  Layer 5 to 4  Message = r[E.u_H1xbK4{eN7~hr:
+B:   16359.9090,  Layer 4 to 5  Message = r[E.u_H1xbK4{eN7~hr:
+A:   16654.5856,  Layer 5 to 4  Message = snid_YTOJE?:50+&~yts
+B:   16679.6474,  Layer 4 to 5  Message = snid_YTOJE?:50+&~yts
+A:   16815.2221,  Layer 5 to 4  Message = t#x;HTamy(4AMYfr~-9F
+A:   16824.5092,  Layer 5 to 4  Message = uuSq1Om-Ki)Ge%3a~>]z
+B:   16849.2609,  Layer 4 to 5  Message = t#x;HTamy(4AMYfr~-9F
+B:   16877.3987,  Layer 4 to 5  Message = uuSq1Om-Ki)Ge%3a~>]z
+A:   17099.8198,  Layer 5 to 4  Message = vHvIxJyKzL{M|N}O~P!Q
+B:   17111.8359,  Layer 4 to 5  Message = vHvIxJyKzL{M|N}O~P!Q
+A:   17163.6730,  Layer 5 to 4  Message = wZ=wbE(iLxpS6wZ=~bE(
+A:   17174.2928,  Layer 5 to 4  Message = dmbVx?4){peY2C7,~sh]
+B:   17177.8879,  Layer 4 to 5  Message = wZ=wbE(iLxpS6wZ=~bE(
+B:   17207.7107,  Layer 4 to 5  Message = dmbVx?4){peY2C7,~sh]
+A:   17365.4190,  Layer 5 to 4  Message = y!(.4yAGMSY`flrx~'-3
+B:   17394.6249,  Layer 4 to 5  Message = y!(.4yAGMSY`flrx~'-3
+A:   17721.0601,  Layer 5 to 4  Message = z4Ld{5ze|6Nf}7Og~8Ph
+B:   17727.3428,  Layer 4 to 5  Message = z4Ld{5ze|6Nf}7Og~8Ph
+A:   17791.1613,  Layer 5 to 4  Message = {Gp;e0Y{NwCl7a,U~Js>
+B:   17819.3534,  Layer 4 to 5  Message = {Gp;e0Y{NwCl7a,U~Js>
+A:   17833.7508,  Layer 5 to 4  Message = |Y6qN+fC|Z7rO,gD~[8s
+B:   17867.8446,  Layer 4 to 5  Message = |Y6qN+fC|Z7rO,gD~[8s
+A:   17883.4221,  Layer 5 to 4  Message = }lZI7&raO},xgUD2~m[J
+A:   17923.4680,  Layer 5 to 4  Message = ~fDUgx,=Oa~&7I3l}1CT
+B:   17925.7318,  Layer 4 to 5  Message = }lZI7&raO},xgUD2~m[J
+B:   17931.8515,  Layer 4 to 5  Message = ~fDUgx,=Oa~&7I3l}1CT
+A:   18026.0291,  Layer 5 to 4  Message = !3EVhy->Pbs'2J[m~2DU
+B:   18030.0776,  Layer 4 to 5  Message = !3EVhy->Pbs'2J[m~2DU
+A:   18058.6579,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+B:   18072.3711,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+A:   18145.3207,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+B:   18164.6227,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+A:   18458.0624,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+B:   18482.2801,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+A:   18637.7464,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+B:   18650.5307,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+A:   18702.2623,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+B:   18714.2414,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+A:   18925.6562,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+B:   18933.6058,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+Printing the contents of the Simulation Event Q
+Event Time = 18948.362 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 18953.842 A: LAYER 3  Seq/Ack/Check = 1/1/1357907590:  &}wq&e_XRLF?93-'~xrl
+Event Time = 18964.248 A: LAYER 3  Seq/Ack/Check = 0/1/1317537423:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 18953.842 A: LAYER 3  Seq/Ack/Check = 1/1/1357907590:  &}wq&e_XRLF?93-'~xrl
+Event Time = 18964.248 A: LAYER 3  Seq/Ack/Check = 0/1/1317537423:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 18972.962 B: LAYER 3  Seq/Ack/Check = 1/0/1317602959:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 18993.970 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 18964.248 A: LAYER 3  Seq/Ack/Check = 0/1/1317537423:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 18969.220 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 18972.962 B: LAYER 3  Seq/Ack/Check = 1/0/1317602959:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 18993.970 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 18969.220 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 18972.962 B: LAYER 3  Seq/Ack/Check = 1/0/1317602959:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 18993.970 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 18972.962 B: LAYER 3  Seq/Ack/Check = 1/0/1317602959:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time = 18978.265 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19014.248 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 18978.265 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19019.220 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 18978.265 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19019.220 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19001.787 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19025.626 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19001.787 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19025.626 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19005.584 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19050.639 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19011.272 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19050.639 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19025.180 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19050.639 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19028.787 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19061.272 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19036.385 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19075.180 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19075.180 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19075.180 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19107.657 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19107.657 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19129.869 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19131.678 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19156.494 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19179.869 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19181.678 A: Timer
+Event Time = 19183.049 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19181.678 A: Timer
+Event Time = 19183.049 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19207.510 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19208.458 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19208.458 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19227.192 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19235.499 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19258.458 A: Timer
+Event Time = 19271.949 A: LAYER 5
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19262.958 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+Event Time = 19277.192 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19262.958 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+Event Time = 19277.192 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19267.762 B: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19271.949 A: LAYER 5
+Event Time = 19306.288 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19271.949 A: LAYER 5
+Event Time = 19280.597 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19306.288 A: Timer
+
+
+Printing the contents of the Simulation Event Q
+Event Time = 19280.597 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19306.288 A: Timer
+Event Time = 19307.702 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+
+A:   19271.9486,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+
+Printing the contents of the Simulation Event Q
+Event Time = 19280.597 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19306.288 A: Timer
+Event Time = 19307.702 A: LAYER 3  Seq/Ack/Check = 0/0/1206191621:  '2=IT'kv$x:FQ]hs~,7C
+Event Time = 19608.395 A: LAYER 5
+
+B:   19277.5867,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+A:   19608.3948,  Layer 5 to 4  Message = *fL.nP2r*6vX:z3>~aC%
+B:   19635.0404,  Layer 4 to 5  Message = *fL.nP2r*6vX:z3>~aC%
+
+
+Simulator terminated at time 19653.812693
+ after receiving 100 msgs at layer5
+Simulator Analysis:
+  Number of messages sent from 5 to 4: 100
+  Number of messages received at Layer 5, side A: 0
+  Number of messages received at Layer 5, side B: 100
+  Number of messages incorrectly received at layer 5: 0
+  Number of packets entering the network: 1659
+  Average number of packets already in network:     0.649
+  Number of packets that the network lost: 331
+  Number of packets that the network corrupted: 0
+  Number of packets that the network put out of order: 0
